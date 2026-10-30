@@ -1,0 +1,26 @@
+{
+  "name": "guru-platform",
+  "version": "1.0.0",
+  "description": "GURU — Guided Understanding, Research and University Projects",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev:server": "node server/server.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "seed": "python3 ingestion/build_database.py",
+    "test": "node -e \"console.log('GURU ready')\""
+  },
+  "keywords": [
+    "guru",
+    "engineering-projects",
+    "student-learning",
+    "sih2026",
+    "vlsi",
+    "iot",
+    "embedded",
+    "cybersecurity",
+    "robotics"
+  ],
+  "author": "GURU Education Team",
+  "license": "ISC"
+}
